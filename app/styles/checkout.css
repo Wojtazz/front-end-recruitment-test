@@ -1,72 +1,178 @@
-header {
-  background: #2bdf2b;
+.section-stretched-center {
+  max-width: 1000px;
 }
 
-.personaltable {
+.checkout-form {
+  background-color: #eeeded;
+}
+
+.checkout-section-cell {
+  border: 1px lightGrey;
+  border-style: dashed;
+  border-radius: 2%;
+}
+
+.checkout-section-dashed {
+  border-top: 1px lightGrey;
+  border-bottom: 1px lightGrey;
+  border-left: 0px;
+  border-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-style: dashed;
+}
+
+.personal-table {
   border-collapse: separate;
   border-spacing: 15px;
-  width: 100%;
+  width: 68em;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-.paymenttable {
+.payment-table {
   border-collapse: separate;
   border-spacing: 15px;
-  width: 66.66667%;
+  width: 48.75em;
+  margin-left: 2%;
 }
 
-td, th {
+td {
   background-color: white;
   padding: 5px;
+  border-radius: 5px;
+  border-bottom: 2px solid lightGrey;
 }
 
-th {
-  background-color: blue;
-  border-top: none;
+.div-cell {
+  min-height: 35px;
 }
 
-td:first-child, th:first-child {
-  border-left: none;
+.select-cell {
+  background-image: url("../images/icons/baseline_keyboard_arrow_down_black_18dp.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: 1.5em auto, 100%;
 }
 
-.table_form {
-  width: 100%;
-  height: 100%;
+.button-cell {
+  background: #6ddf2b;
+  text-align: center;
 }
 
-.name {
+.border-div {
+  width: 35px;
+  height: 20px;
+  border: 1px solid lightGrey;
+  border-style: solid;
+  border-radius: 10%;
+  background: url("../images/icons/visa-logo-preview.png") no-repeat center center;
+  background-size: 2.5em auto, 100%;
+  float: right;
+}
+
+.custom-label {
   color: black;
   font-weight: bold;
   font-size: smaller;
   display: block;
 }
 
-.subtext {
+.custom-input {
   background: transparent;
   border: none;
+  outline: none;
   font-size: 15px;
+  width: 50%;
 }
 
-form {
-  background-color: #eeeded;
+.custom-select {
+  width: 90%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
 }
 
-.section-title {
-  color: black;
-  font-weight: bold;
+.submit-button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.credit-icon {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.help-icon {
+  display: inline;
+  position: relative;
+  float: right;
+  color: lightGrey;
+}
+
+.submit-icon {
+  color: white;
+  font-size: medium;
+}
+
+.rounded-icon-one {
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+  background: url("../images/icons/baseline_looks_one_black_18dp.png") no-repeat center center;
+  background-size: 1.8em auto, 100%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rounded-icon-two {
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+  background: url("../images/icons/baseline_looks_two_black_18dp.png") no-repeat center center;
+  background-size: 1.8em auto, 100%;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .left-text {
   text-align: left;
+  color: black;
+  font-size: small;
+  margin-left: 5px;
 }
 
 .bolded-left-text {
   text-align: left;
   color: black;
   font-weight: bold;
+  font-size: small;
+  margin-left: 5px;
+}
+
+.left-text-dashed {
+  text-align: left;
+  color: black;
+  font-size: small;
+}
+
+.right-text-dashed {
+  float: right;
+  color: black;
+  font-size: small;
 }
 
 .right-text {
   float: right;
+  margin-right: 5px;
 }
 
 .right-text-summary {
@@ -74,35 +180,20 @@ form {
   color: black;
   font-weight: bold;
   font-size: 25px;
-}
-
-.buttoncell {
-  background: #2bdf2b;
-}
-
-.submitbutton {
-  width: 100%;
-  background: transparent;
-  border: none;
-  color: white;
-}
-
-.margin {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 5px;
 }
 
 .valign-center {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  vertical-align: bottom;
+  vertical-align: middle;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.div-cell {
-  min-height: 35px;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 1%;
 }
 /*# sourceMappingURL=checkout.css.map */

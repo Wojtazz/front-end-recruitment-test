@@ -10,14 +10,17 @@ $weightOfFont: bold;
 .section-stretched-center {
     max-width: 1000px;
  }
+
  .checkout-form{
     background-color: $formBackgroundColor;
 }
+
 .checkout-section-cell {
     border: 1px $secondaryColor;
     border-style: dashed;
     border-radius: 2%;
 }
+
 .checkout-section-dashed {
     border-top: 1px $secondaryColor;
     border-bottom: 1px $secondaryColor;
@@ -28,6 +31,7 @@ $weightOfFont: bold;
     margin-bottom: 10px;
     border-style: dashed;
 }
+
 .personal-table {
     border-collapse: separate;
     border-spacing: 15px; 
@@ -35,31 +39,37 @@ $weightOfFont: bold;
     margin-left: 2%;
     margin-right: 2%;
 }
+
 .payment-table {
     border-collapse: separate;
     border-spacing: 15px; 
     width: 48.75em;
     margin-left: 2%;
 }
+
 td {
     background-color: $backgroundColor;
     padding: 5px;
     border-radius: 5px;
     border-bottom: 2px solid $secondaryColor;
 }
+
 .div-cell {
     min-height: 35px;
 }
+
 .select-cell {
     background-image: url('../images/icons/baseline_keyboard_arrow_down_black_18dp.png');
     background-repeat: no-repeat, repeat;
     background-position: right .7em top 50%, 0 0;
     background-size: 1.5em auto, 100%;
 }
+
 .button-cell {
     background: $submitButtonColor;
     text-align: center;
 }
+
 .border-div {
     width: 35px;
     height: 20px;
@@ -70,12 +80,14 @@ td {
     background-size: 2.5em auto, 100%; 
     float: right;
 }
+
 .custom-label { 
     color: $defaultColor;
     font-weight: $weightOfFont;
     font-size: smaller; 
     display: block; 
 }
+
 .custom-input { 
     background: transparent;
     border: none;
@@ -83,6 +95,7 @@ td {
     font-size: 15px;
     width: 50%;   
 }
+
 .custom-select {
     width:90%;
     -moz-appearance: none;
@@ -91,6 +104,7 @@ td {
     border: none;
     outline: none;
 }
+
 .submit-button {
     width: 100%;
     background: transparent;
@@ -99,21 +113,25 @@ td {
     outline: none;
     cursor: pointer;
 }
+
 .credit-icon {
     height: 30px;
     width: 30px;
     text-align: center;
 }
+
 .help-icon {
     display: inline;
     position: relative; 
     float: right;
     color: $secondaryColor;
 }
+
 .submit-icon {
     color: $backgroundColor;
     font-size: medium;
 }
+
 .rounded-icon-one {
     width: 18px;
     height: 18px;
@@ -123,6 +141,7 @@ td {
     border-radius: $borderCircleRadius;
     margin-right: 10px;
 }
+
 .rounded-icon-two {
     width: 18px;
     height: 18px;
@@ -132,19 +151,22 @@ td {
     border-radius: $borderCircleRadius;
     margin-right: 10px;
 }
+
 .left-text {
     text-align: left;
     color: $defaultColor;
     font-size: small;
     margin-left: 5px;
 }
+
 .bolded-left-text {
     text-align: left;
     color: $defaultColor;
     font-weight: $weightOfFont;
     font-size: small;
     margin-left: 5px;
-  }
+}
+
 .left-text-dashed {
     text-align: left;
     color: $defaultColor;
