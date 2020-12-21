@@ -1,0 +1,108 @@
+header {
+  background: #2bdf2b;
+}
+
+.personaltable {
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 100%;
+}
+
+.paymenttable {
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 66.66667%;
+}
+
+td, th {
+  background-color: white;
+  padding: 5px;
+}
+
+th {
+  background-color: blue;
+  border-top: none;
+}
+
+td:first-child, th:first-child {
+  border-left: none;
+}
+
+.table_form {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  color: black;
+  font-weight: bold;
+  font-size: smaller;
+  display: block;
+}
+
+.subtext {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+form {
+  background-color: #eeeded;
+}
+
+.section-title {
+  color: black;
+  font-weight: bold;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.bolded-left-text {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.right-text {
+  float: right;
+}
+
+.right-text-summary {
+  float: right;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.buttoncell {
+  background: #2bdf2b;
+}
+
+.submitbutton {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.valign-center {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: bottom;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div-cell {
+  min-height: 35px;
+}
+/*# sourceMappingURL=checkout.css.map */
