@@ -49,6 +49,14 @@ td {
   min-height: 35px;
 }
 
+.div-cell small {
+  color: red;
+}
+
+.data-cell-error {
+  border: 1px solid red;
+}
+
 .select-cell {
   background-image: url("../images/icons/baseline_keyboard_arrow_down_black_18dp.png");
   background-repeat: no-repeat, repeat;
